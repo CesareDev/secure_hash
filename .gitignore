@@ -22,3 +22,5 @@ CMakeUserPresets.json
 .cache
 *.a
 *.lib
+build
+test*

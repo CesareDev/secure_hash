@@ -1,4 +1,4 @@
-#include "secure_hash.h"
+#include "secure_hash.hpp"
 
 #include <cstdint>
 #include <iomanip>
