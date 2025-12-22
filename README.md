@@ -10,9 +10,12 @@ Simple implementation of the Secure Hash family algorithms. For now there are im
 
 ## Building
 
-It's just one source file `secure_hash.cpp` and it's header `secure_hash.h`.
+It's just one source file `secure_hash.cpp` and it's header `secure_hash.hpp`.
 You can build it however you want, you can add the two files to your project and compile
-all together. Or simply use the `build.sh` script. The library file will be in the `build` folder.
+all together. Or simply use the `build.sh` script.
+
+In the `build` directory you can build the project running `make`.
+After compiling, the library file will be in the root of the `build` directory.
 
 ## Usage
 
@@ -21,7 +24,7 @@ The usage is pretty straightforward (e.g. with sha1 and sha256):
 ```cpp
 #include <iostream>
 
-#include "secure_hash.h"
+#include "secure_hash.hpp"
 
 int main()
 {
