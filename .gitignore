@@ -23,4 +23,3 @@ CMakeUserPresets.json
 *.a
 *.lib
 build
-test*
